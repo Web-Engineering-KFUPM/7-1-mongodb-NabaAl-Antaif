@@ -65,28 +65,28 @@
  * TODO-7 Read Documents
  * ============================================
  *   - In cmd write the following commands: 
- *      - 7.1:  db.students.find()               // all
- *      - 7.2: db.students.find({ age: { $gt: 21 } })  // filtered
+ *      - 7.1:  db.Students.find()               // all
+ *      - 7.2: db.Students.find({ age: { $gt: 21 } })  // filtered
  *   Note: Take a single screen shot of the Todo 7.1 & 7.2 and save it in Mongo-Screen-shots/TODO-7
  * ============================================
  * TODO-8 Update & Delete
  * ============================================
  *   - In cmd write the following commands: 
- *      - 8.1:  db.students.updateOne({ name: "Ali" }, { $set: { age: 22 } }) 
- *      - 8.2: db.students.deleteOne({ name: "Sara" })
+ *      - 8.1:  db.Students.updateOne({ name: "Ali" }, { $set: { age: 22 } }) 
+ *      - 8.2: db.Students.deleteOne({ name: "Sara" })
  *    Note: Take a single screen shot of the Todo 8.1 & 8.2 and save it in Mongo-Screen-shots/TODO-8
  * ============================================
  * TODO-9 Quick Check
  * ============================================
  *   - In cmd write the following commands: 
- *      - 9.1: db.students.find().pretty()
+ *      - 9.1: db.Students.find().pretty()
  *      - 9.2: Should show only Ali, age = 22.
  *    Note: Take a single screen shot of the Todo 9.1 & 9.2 and save it in Mongo-Screen-shots/TODO-9
  * ================================================================================================================
  *                                                    Mongoose
  * ================================================================================================================
  * ===================================================================
-    LAB SETUP INSTRUCTIONS
+      LAB SETUP INSTRUCTIONS
    ===================================================================
 
    1. Navigate to the project directory:
