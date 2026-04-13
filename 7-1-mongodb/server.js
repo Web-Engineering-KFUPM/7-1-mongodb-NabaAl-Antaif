@@ -185,6 +185,7 @@
  */
 
 // import mongoose
+import mongoose from "mongoose";
 
 // establish connection
 
